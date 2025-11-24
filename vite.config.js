@@ -32,9 +32,10 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/MariasMission/", // مهم لـ GitHub Pages
+  base: "/MariasMission/", // لازم يطابق اسم الريبو على GitHub
   build: {
     outDir: "dist",
   },
 })
+
 

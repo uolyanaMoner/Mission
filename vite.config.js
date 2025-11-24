@@ -25,17 +25,12 @@
 //   },
 // })
 
-
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/MariasMission/", // لازم يطابق اسم الريبو على GitHub
-  build: {
-    outDir: "dist",
-  },
+  base: "/MariasMission/", 
 })
-
 

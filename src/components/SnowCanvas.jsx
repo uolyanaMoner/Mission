@@ -1,4 +1,3 @@
-// SnowCanvas.jsx
 import React, { useEffect, useRef } from "react";
 
 export default function SnowCanvas() {

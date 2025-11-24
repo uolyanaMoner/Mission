@@ -50,7 +50,7 @@ Error generating stack: `+s.message+`
         backdrop-blur-xl bg-white/10 border-[1px] border-white/40 \r
         animate-fadeInCard overflow-hidden`,children:[T.jsx("div",{className:`absolute inset-0 rounded-2xl border-2 border-transparent \r
           animate-borderGlow pointer-events-none`}),T.jsx("div",{className:"w-full h-4 bg-white/20 rounded-full mb-8 overflow-hidden",children:T.jsx("div",{className:"h-full transition-all duration-500",style:{width:`${B}%`,background:"linear-gradient(90deg, #7DFFB3, #19C37D)"}})}),T.jsx("h2",{className:`text-2xl md:text-4xl font-bold mb-8 text-center \r
-          text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.9)] animate-popIn`,children:co[e].question}),T.jsx("div",{className:"flex flex-col gap-4",children:co[e].options.map((d,g)=>T.jsxs("button",{onClick:()=>h(d.message),className:`px-6 py-4 bg-black/50 hover:bg-black/60 \r
+          text-white drop-shadow-[0_0_12px_rgba(255,255,255,0.9)] animate-popIn`,children:co[e].question}),T.jsx("div",{className:"flex flex-col gap-4",children:co[e].options.map((d,g)=>T.jsxs("button",{style:{backgroundColor:"black"},onClick:()=>h(d.message),className:`px-6 py-4 hover:bg-black/60 \r
                 backdrop-blur-lg border border-white/30 rounded-xl text-white \r
                 font-semibold text-lg shadow-lg transition-all duration-300\r
                 hover:scale-[1.04] active:scale-[0.96] \r

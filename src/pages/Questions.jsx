@@ -181,10 +181,11 @@ export default function QuizAfterPuzzleFull() {
           {/* Options */}
           <div className="flex flex-col gap-4">
             {questions[currentQ].options.map((opt, idx) => (
-              <button
+              <button 
+              style={{backgroundColor:'black'}}
                 key={idx}
                 onClick={() => handleAnswer(opt.message)}
-                className="px-6 py-4 bg-black/50 hover:bg-black/60 
+                className="px-6 py-4 hover:bg-black/60 
                 backdrop-blur-lg border border-white/30 rounded-xl text-white 
                 font-semibold text-lg shadow-lg transition-all duration-300
                 hover:scale-[1.04] active:scale-[0.96] 

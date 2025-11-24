@@ -7,8 +7,8 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: './',       // مهم جداً عشان Deployment على Vercel
+  base: './',       // مهم جدًا لكل المسارات النسبية
   build: {
-    outDir: 'dist', // المجلد النهائي بعد build
+    outDir: 'dist', // مجلد Build النهائي
   },
 })

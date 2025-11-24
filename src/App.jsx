@@ -30,8 +30,8 @@
 
 import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import EnterCode from "./pages/EnterCode";
 import Landing from "./pages/Landing";
+import EnterCode from "./pages/EnterCode";
 import GamePage from "./pages/Game";
 import QuizAfterPuzzleFull from "./pages/Questions";
 import DoorsGame from "./pages/Doors";

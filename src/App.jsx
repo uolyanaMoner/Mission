@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import EnterCode from "./pages/EnterCode";
 import AccessGranted from "./pages/AccessGranted";
-import Landing from "./pages/landing";
+import Landing from "./pages/Landing";
 import GamePage from "./pages/Game";
 import QuizAfterPuzzleFull from "./pages/Questions";
 import DoorsGame from "./pages/Doors";

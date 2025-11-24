@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import EnterCode from "./pages/EnterCode";
-import AccessGranted from "./pages/AccessGranted";
 import Landing from "./pages/Landing";
 import GamePage from "./pages/Game";
 import QuizAfterPuzzleFull from "./pages/Questions";
@@ -21,7 +20,6 @@ export default function App() {
         <Route path="/doors" element={<DoorsGame/>} />
         <Route path="/gift" element={<GiftGame/>} />
         <Route path="/stars" element={<StarPathChristmas/>}/>
-
         <Route path="/finallgift" element={<SantaLetter />} />
       </Routes>
     </Router>
